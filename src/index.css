@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap");
+
+@import "tailwindcss";
+
+body {
+  max-width: 100%;
+  min-height: 100vh;
+  font-family: "Mona Sans", sans-serif;
+}
+
+@theme {
+  --color-dark-purple: #161c2d;
+  --color-custom-blue: #473bf0;
+  --color-custom-gray: #f4f7fa;
+  --color-custom-green: #68d585;
+}
+
+.reasonBackroung {
+  background-image: url("../src/assets/back_image.jpg");
+  width: 100%;
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
