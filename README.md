@@ -23,7 +23,8 @@ git clone https://github.com/votre-nom/brainwave.io.git
 
 2. Installez les dépendances :
 
-```npm install
+```bash
+npm install
 
 ```
 

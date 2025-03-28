@@ -14,7 +14,7 @@ const CallToAction = () => {
       transition={{ duration: 0.6, ease: "easeOut" }}
       className="bg-custom-green mt-8 flex w-full items-center justify-center gap-6 p-4 text-center lg:mt-14 lg:p-6"
     >
-      <h3 className="text-base font-bold text-white lg:text-xl">
+      <h3 className="text-sm font-bold text-white md:text-base lg:text-xl">
         Ready to get started?
       </h3>
 
