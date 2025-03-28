@@ -17,7 +17,7 @@ Brainwave.io est une application web interactive développée avec **React JS**,
 1. Clonez le dépôt :
 
 ```bash
-git clone https://github.com/votre-nom/brainwave.io.git
+git clone https://github.com/gery-guedegbe/brainwave-io-website.git
 
 ```
 
