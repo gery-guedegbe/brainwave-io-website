@@ -30,6 +30,7 @@ const ReasonSection = () => {
             alt="Green Circle Shape"
             className="absolute top-8 -left-4 z-0 h-32 w-32 lg:-left-6 lg:h-48 lg:w-48"
           />
+
           <img
             src={avatar}
             alt="Avatar Image"
@@ -42,7 +43,7 @@ const ReasonSection = () => {
           initial={{ opacity: 0, x: -50 }}
           animate={isInView ? { opacity: 1, x: 0 } : {}}
           transition={{ duration: 0.7, delay: 0.5 }}
-          className="mb-0 flex flex-col items-center gap-4 lg:mb-10 lg:items-start lg:gap-6"
+          className="mb-0 flex flex-col items-center gap-4 text-center lg:mb-10 lg:items-start lg:gap-6 lg:text-start"
         >
           <h4 className="text-dark-purple text-base font-bold lg:text-xl">
             Reasons you should choose us to grow today.

@@ -73,7 +73,7 @@ const HeroSection = () => {
             alt="Shape 3"
             animate={{ y: [0, -12, 0] }}
             transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-            className="absolute right-18 bottom-5 z-20 h-16 w-16 md:bottom-0 lg:right-6 lg:h-28 lg:w-28 xl:-bottom-32"
+            className="absolute right-16 bottom-5 z-20 h-16 w-16 md:right-64 md:bottom-0 lg:right-6 lg:h-28 lg:w-28 xl:-bottom-32"
           />
         </div>
       </div>
