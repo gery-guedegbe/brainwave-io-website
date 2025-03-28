@@ -12,6 +12,14 @@ Brainwave.io est une application web interactive développée avec **React JS**,
 
 - **Framer Motion** - Bibliothèque pour ajouter des animations fluides et dynamiques.
 
+### Fonctionnalités
+
+- Interface utilisateur moderne et épurée.
+
+- Animations immersives et naturelles pour une navigation agréable.
+
+- Mise en page responsive adaptée à tous les écrans.
+
 ### Installation
 
 1. Clonez le dépôt :
