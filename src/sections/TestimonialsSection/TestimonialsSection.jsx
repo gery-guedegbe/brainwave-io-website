@@ -36,13 +36,13 @@ const TestimonialsSection = () => {
   return (
     <section
       ref={ref}
-      className="flex w-full flex-col gap-6 bg-white px-4 py-4 lg:gap-12 lg:px-40 lg:py-10"
+      className="mt-8 flex w-full flex-col gap-6 bg-white px-4 py-4 lg:gap-12 lg:px-40 lg:py-10"
     >
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         animate={isInView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        className="flex flex-col items-center space-y-3 text-center"
+        className="mb-4 flex flex-col items-center space-y-3 text-center"
       >
         <h3 className="text-dark-purple text-base font-bold lg:text-xl">
           What people say about us

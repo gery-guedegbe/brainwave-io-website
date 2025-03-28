@@ -39,14 +39,14 @@ const ServicesSection = () => {
       initial={{ opacity: 0, y: 50 }}
       animate={isInView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.8, ease: "easeOut" }}
-      className="bg-custom-gray flex w-full flex-col gap-6 px-4 py-4 lg:gap-12 lg:px-40 lg:py-8"
+      className="bg-custom-gray mt-10 flex w-full flex-col gap-6 px-4 py-4 lg:gap-12 lg:px-40 lg:py-8"
     >
       {/* Titre et description */}
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={isInView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
-        className="flex flex-col items-center space-y-3 text-center"
+        className="flex flex-col items-center space-y-3 py-6 text-center"
       >
         <h3 className="text-dark-purple text-base font-bold lg:text-xl">
           Services we offer for you

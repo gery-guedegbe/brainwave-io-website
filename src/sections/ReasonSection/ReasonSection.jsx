@@ -15,7 +15,7 @@ const ReasonSection = () => {
       initial={{ opacity: 0, y: 50 }}
       animate={isInView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.8, ease: "easeOut" }}
-      className="flex w-full flex-col bg-white py-4 lg:gap-12 lg:py-6"
+      className="mt-10 flex w-full flex-col bg-white py-4 lg:gap-12 lg:py-6"
     >
       <div className="flex w-full flex-col-reverse items-center justify-between gap-12 px-4 lg:flex-row lg:gap-24 lg:px-40">
         {/* Avatar avec cercle vert derrière */}
@@ -43,7 +43,7 @@ const ReasonSection = () => {
           initial={{ opacity: 0, x: -50 }}
           animate={isInView ? { opacity: 1, x: 0 } : {}}
           transition={{ duration: 0.7, delay: 0.5 }}
-          className="mb-0 flex flex-col items-center gap-4 text-center lg:mb-10 lg:items-start lg:gap-6 lg:text-start"
+          className="mb-0 flex flex-col items-center gap-5 text-center lg:mb-10 lg:items-start lg:gap-6 lg:text-start"
         >
           <h4 className="text-dark-purple text-base font-bold lg:text-xl">
             Reasons you should choose us to grow today.
